@@ -1,25 +1,25 @@
 class SinCode < Formula
-  desc "SIN-Code unified toolchain — 19 subcommands in one binary (13 MCP + 6 CLI-only)"
+  desc "SIN-Code unified toolchain — 19 subcommands + multi-pane TUI 2.0 (13 MCP + 6 CLI-only)"
   homepage "https://github.com/OpenSIN-Code/SIN-Code-Bundle"
-  version "1.0.9"
+  version "1.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.0.9/sin-code-darwin-arm64.tar.gz"
-      sha256 "c70b1daf6ebd3e268dc9edbb6b99b8ec6056a620fdb30bc4c4e273115493080b"
+      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.1.0/sin-code-darwin-arm64.tar.gz"
+      sha256 "4f6d4fac8761837e6b1e3791c9c15c5d2bb5b64259cd5bd4349ef514649dbc3f"
     else
-      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.0.9/sin-code-darwin-amd64.tar.gz"
-      sha256 "7bd5f92d36614d8831104b92853ae2a5c40b0f5f367c9d7957bcdfd308a27107"
+      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.1.0/sin-code-darwin-amd64.tar.gz"
+      sha256 "68552d17b8da60706490c28a52b805d47d605186b89d7fa0ca7aa2e7fdbe734f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.0.9/sin-code-linux-arm64.tar.gz"
-      sha256 "82b77e62e1d7cb7239fab69fefad80323f4b0b23576fa37ee9ed3533c3f471ce"
+      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.1.0/sin-code-linux-arm64.tar.gz"
+      sha256 "6e81985202deb17da2e5e3d543236736102d50ced31e84ae46b625bce3e005b0"
     else
-      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.0.9/sin-code-linux-amd64.tar.gz"
-      sha256 "9c07743bcad2a0d8ea6ddbaaa552f23df7f8d3dd8d7998e02e6e5d8533d30eb0"
+      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.1.0/sin-code-linux-amd64.tar.gz"
+      sha256 "4b8a9fef2253fbc619bd19259060ad90960d179c04939844a42284f846d8a232"
     end
   end
 
