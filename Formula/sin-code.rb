@@ -1,25 +1,25 @@
 class SinCode < Formula
-  desc "SIN-Code unified toolchain — 19 subcommands + multi-pane TUI 2.0 (13 MCP + 6 CLI-only)"
-  homepage "https://github.com/OpenSIN-Code/SIN-Code-Bundle"
-  version "1.1.0"
+  desc "SIN-Code — verification-first self-improving coding agent (50+ subcommands, MCP server, multi-agent orchestrator)"
+  homepage "https://github.com/OpenSIN-Code/SIN-Code"
+  version "3.24.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.1.0/sin-code-darwin-arm64.tar.gz"
-      sha256 "4f6d4fac8761837e6b1e3791c9c15c5d2bb5b64259cd5bd4349ef514649dbc3f"
+      url "https://github.com/OpenSIN-Code/SIN-Code/releases/download/v3.24.0/sin-code_3.24.0_darwin_arm64.tar.gz"
+      sha256 "8cddd48b7d1c1ede2b3dbfb0c84a598ceb4d9097e329f209d1f42ef8e7133b49"
     else
-      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.1.0/sin-code-darwin-amd64.tar.gz"
-      sha256 "68552d17b8da60706490c28a52b805d47d605186b89d7fa0ca7aa2e7fdbe734f"
+      url "https://github.com/OpenSIN-Code/SIN-Code/releases/download/v3.24.0/sin-code_3.24.0_darwin_amd64.tar.gz"
+      sha256 "fdc04ed91b07d808f981c9530275a5cdcb8b2195b610251aae150119c67f183f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.1.0/sin-code-linux-arm64.tar.gz"
-      sha256 "6e81985202deb17da2e5e3d543236736102d50ced31e84ae46b625bce3e005b0"
+      url "https://github.com/OpenSIN-Code/SIN-Code/releases/download/v3.24.0/sin-code_3.24.0_linux_arm64.tar.gz"
+      sha256 "300542bcd6f09b69d5b4adecb08d5b423fc958b393f151b92c6f61537f737d7e"
     else
-      url "https://github.com/OpenSIN-Code/SIN-Code-Bundle/releases/download/v1.1.0/sin-code-linux-amd64.tar.gz"
-      sha256 "4b8a9fef2253fbc619bd19259060ad90960d179c04939844a42284f846d8a232"
+      url "https://github.com/OpenSIN-Code/SIN-Code/releases/download/v3.24.0/sin-code_3.24.0_linux_amd64.tar.gz"
+      sha256 "bcb6581bfdfe16e4036d0bedd0c4b7f4bd589464654968a06f48a60a09787c67"
     end
   end
 
